@@ -9,7 +9,7 @@
    * Check to make sure that inputs are numbers
      * If they are not numbers, use template literals to print the input along with a message informing that the input is not a number.
    * Ensure that `lowerLimit` is smaller than `upperLimit`.
-     * If input for `lowerLimit` is larger than `upperLimit`, use template literals print a statement informing the user that the lowerLimit is larger than the upperLimit.
+     * If input for `lowerLimit` is larger than `upperLimit`, use **template literals** to print a statement informing the user that the lowerLimit is larger than the upperLimit.
     <img src="resources/img/genbuzz-example.png"> 
      
 
