@@ -11,8 +11,21 @@
 //    * <img src="resources/img/genbuzz-example.png"> 
 
 // //Write your code below this line:
+const GenBuzz = (lowerLimit, upperLimit) =>{
+  if(typeof lowerLimit !== "number" || typeof upperLimit !== "number") return console.log(`${lowerLimit}: ${upperLimit}; Not valid input`)
+  if(!(lowerLimit < upperLimit)) return console.log(`${upperLimit} is higher than ${lowerLimit}`)
 
+  for(let i = lowerLimit; i <= upperLimit; i++){
+    let divBy3 = ((i % 3) === 0)
+    let divBy5 = ((i % 5) === 0)
+    if(divBy3 && divBy5) console.log("GenBuzz")
+    else if(divBy3) console.log("Gen")
+    else if(divBy5) console.log("Buzz")
+    else console.log(i)pwd
+  }
+}
 
+GenBuzz(1, 35)
 
 
 // 2. Leap Year
